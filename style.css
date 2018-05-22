@@ -1,0 +1,284 @@
+* {
+    font-family: 'Tajawal','PT Sans', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #eceef1;
+}
+
+/** TOP **/
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding: 10px 30px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.already {
+    color: #505050;
+    line-height: 1.5;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    margin-right: 3px;
+    padding-top: 5px;
+}
+
+.forgot {
+    line-height: 1.5;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: #2277cc;
+}
+
+.sign_in {
+    display: flex;
+    flex-direction: row;
+    background-color: #2377c5;
+    font-size: 14px;
+    color: white;
+    width: 102px;
+    border: 1px solid #4c4c4c;
+    padding: 0 20px;
+    height: 34px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.lock{
+    max-height: 10px;
+    max-width: 10px;
+    background-color: #2377c5;
+    padding-top: 10px;
+    padding-right: 4px;
+}
+
+/** MAIN CONTAINER **/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_logo {
+    width: 118px;
+    height: 35px;
+    align-self: center;
+    margin: 20px 0;
+}
+
+/** FORM **/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 380px;
+    height: 701px;
+    border: 1px solid #c7c7c7;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.header_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: white;
+}
+
+.turbo, 
+.quickbooks,
+.mint {
+    height: 23px;
+    margin: 0 20px;
+    background: white;
+}
+
+.border {
+    border-top: 1px solid #e2e1e1;
+    margin: 15px 0;
+    background-color: white;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #4c4c4c;
+    background-color: white;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    background-color: white;
+    margin: 20px 0;
+    color: #4c4c4c;
+}
+
+.learn {
+    text-decoration: none;
+    color: #7cabd6;
+    background-color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-self: center;
+}
+
+#form,
+.form_text,
+.phone {
+    background-color: white;
+}
+
+.form_text {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    margin-top: 30px;
+}
+
+#form {
+    width: 302px;
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid #c1c5c8;
+}
+
+.phone {
+    font-size: 10px;
+    color: #444;
+    padding: 5px 0;
+}
+
+.create_account {
+    display: flex;
+    flex-direction: row;
+    background-color: #2377c5;
+    justify-content: center;
+    align-items: baseline;
+    width: 318px;
+    height: 44px;
+    padding: 6px 12px;
+    color: white;
+    line-height: 32px;
+    margin: 30px 0;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.lock_create {
+    width: 12px;
+    height: 12px;
+    background-color: #2377c5;
+    align-self: center;
+}
+
+.button_text {
+    background-color: #2377c5;
+    align-self: center;
+    line-height: 28px;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.text {
+    background-color: white;
+    text-align: center;
+    color: #bbb;
+    font-size: 12px;
+    line-height: 1.5;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.narrow {
+    background-color: white;
+    text-decoration: none;
+    color: #2178ce;
+    cursor: pointer;
+}
+
+/** BOTTOM TEXT **/
+
+.second_logo {
+    width: 70px;
+    height: 26px;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.bottom_text {
+    color: #505050;
+    font-size: 12px;
+    align-self: center;
+    line-height: 18px;
+}
+
+.licenses {
+    text-decoration: none;
+    color: #0077c5;
+    cursor: pointer;
+}
+
+.bottom_links {
+    margin-top: 5px;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+.top_bottom {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
